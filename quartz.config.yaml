@@ -13,7 +13,7 @@ configuration:
     - templates
     - .obsidian
   theme:
-    fontOrigin: local
+    fontOrigin: selfHosted
     cdnCaching: true
     typography:
       header: Schibsted Grotesk
