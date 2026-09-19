@@ -1,3 +1,32 @@
 @use "./variables.scss" as *;
 
 // put your custom CSS here!
+@font-face {
+    font-family: 'code';
+    src: url('/static/code-webfont.woff2') format('woff2'),
+         url('/static/code-webfont.woff') format('woff');
+    font-weight: 400 700;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+
+
+@font-face {
+    font-family: 'deltarune';
+    src: url('/static/deltarune-webfont.woff2') format('woff2'),
+         url('/static/deltarune-webfont.woff') format('woff');
+    font-weight: 400 700;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'determination';
+    src: url('/static/determination-webfont.woff2') format('woff2'),
+         url('/static/determination-webfont.woff') format('woff');
+    font-weight: 400 700;
+    font-style: normal;
+    font-display: swap;
+}
