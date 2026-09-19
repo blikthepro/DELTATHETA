@@ -1,3 +1,3 @@
 # DELTATHETA
 
-a ttrpg inspired by deltarune, fighting games, and gurps
+a ttrpg inspired by DELTARUNE, fighting games, and GURPS
