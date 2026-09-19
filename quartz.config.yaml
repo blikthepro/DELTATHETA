@@ -164,6 +164,8 @@ plugins:
     enabled: true
   - source: "@quartz-community/explorer"
     enabled: true
+    options:
+      title: RESEARCHER
     layout:
       position: left
       priority: 50
@@ -196,7 +198,7 @@ plugins:
       position: beforeBody
       priority: 20
   - source: "@quartz-community/tag-list"
-    enabled: false
+    enabled: true
     layout:
       position: beforeBody
       priority: 30
@@ -224,10 +226,17 @@ plugins:
       priority: 5
       condition: not-index
   - source: "@quartz-community/comments"
-    enabled: false
+    enabled: true
     options:
       provider: giscus
-      options: {}
+      options: 
+        provider: giscus
+        options:
+          repo: blikthepro/DELTATHETA
+          repoId: R_kgDOUhHtNQ
+          category: Announcements
+          categoryId: DIC_kwDOUhHtNc4DF9c0
+          lang: en
     layout:
       position: afterBody
       priority: 10
